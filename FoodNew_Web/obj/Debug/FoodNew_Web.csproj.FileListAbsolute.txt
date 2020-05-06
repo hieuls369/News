@@ -1,0 +1,10 @@
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\bin\FoodNew_Web.dll.config
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\bin\FoodNew_Web.dll
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\bin\FoodNew_Web.pdb
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\obj\Debug\FoodNew_Web.csprojAssemblyReference.cache
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\obj\Debug\FoodNew_Web.dll
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\obj\Debug\FoodNew_Web.pdb
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\bin\FoodN.exe
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\bin\FoodN.pdb
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\bin\FoodN.exe.config
+F:\Chuyên Ngành 5\PRN201\Project\FoodNew_Web\obj\Debug\FoodNew_Web.csproj.CopyComplete

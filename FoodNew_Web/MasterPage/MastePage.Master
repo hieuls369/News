@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MastePage.master.cs" Inherits="FoodNew_Web.MasterPage.MastePage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Taste IT</title>
+    <link href="../CSS/masterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="header">
+                <div class="title">
+                    <div class="icon">
+                        <img src="../Image/icon.jpg" alt="" />
+                    </div>
+                    <div class="label">
+                        <h1>Taste IT</h1>
+                        <p>Welcome to this website</p>
+                    </div>
+                </div>
+                <div class="access">
+                    <div class="headmenu">
+                        <a href="../HomePage.aspx" onclick="changeLinkColor(this)">Home</a>
+                        <a href="../Food.aspx" onclick="changeLinkColor(this)">Food</a>
+                    </div>
+                    <div class="login">
+                        <%if (Convert.ToInt32(Session["accRole"]) != 0)
+                            {%>
+                        <asp:LinkButton ID="lbIn" runat="server" OnClick="lbIn_Click"><%=Session["accName"] %></asp:LinkButton>
+                        <asp:LinkButton ID="lbOut" runat="server" OnClick="lbOut_Click">Logout</asp:LinkButton>
+                        <%}
+                            else
+                            { %>
+                        <a href="Login.aspx" onclick="changeLinkColor(this)">Login</a>
+                        <asp:LinkButton ID="lbSign" runat="server" OnClick="lbSign_Click">Sign up</asp:LinkButton>
+                        <%} %>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-left">
+                    <asp:ContentPlaceHolder ID="home" runat="server" />
+                </div>
+                <div class="content-right">
+                    <div class="box">
+                        <h3>Share this page</h3>
+                        <a href="#" class="face">Share on Facebook</a>
+                        <br>
+                        <a href="#" class="twitter">Share on Twitter</a>
+                        <br>
+                        <a href="#" class="goole">Share on Google+</a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <a>Created with Taste IT</a>
+            </div>
+        </div>
+    </form>
+</body>
+<script type="text/javascript">
+    var currentLink = null;
+    function changeLinkColor(link) {
+        if (currentLink != null) {
+            currentLink.style.color = link.style.color; //You may put any color you want
+        }
+        link.style.color = 'red';
+        currentLink = link;
+    }
+</script>
+</html>

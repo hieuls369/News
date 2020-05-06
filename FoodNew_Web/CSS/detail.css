@@ -1,0 +1,32 @@
+﻿.detail-name p {
+    margin: 0px;
+}
+
+.detail-img {
+    width: 45%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+    .detail-img img {
+        width: 100%;
+        border-radius: 5px;
+    }
+.detail-news {
+    padding: 20px;
+}
+.side{
+    display: flex;
+}
+.right-side p{
+    margin: 10px;
+}
+.right-side{
+    width: 28%;
+}
+.left-side h4 {
+    margin: 10px 0px;
+}
+.left-side{
+    width: 72%;
+}

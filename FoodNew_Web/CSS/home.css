@@ -1,0 +1,39 @@
+﻿.content-items {
+    height: auto;
+    border-bottom: 2px dashed rgba(0,0,0,.5);
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.first img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.second {
+    border: none;
+}
+
+.second-context {
+   
+}
+
+.image {
+    width: 30%;
+    float:left;
+    padding: 10px;
+}
+
+.context {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.context p {
+    margin: 0px;
+    margin-left: 10px;
+}

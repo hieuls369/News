@@ -1,0 +1,20 @@
+﻿.main {
+    padding: 20px;
+}
+.request{
+   
+    display: flex;
+}
+.request-name{
+    width: 20%;
+}
+.request-input{
+    width: 80%;
+}
+.tbr{
+    margin: 15px 0px;
+    width: 414px;
+}
+.btr{
+    margin-left: 361px;
+}

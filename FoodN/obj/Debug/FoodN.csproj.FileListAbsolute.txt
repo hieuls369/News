@@ -1,0 +1,14 @@
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\bin\Debug\FoodN.exe.config
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\bin\Debug\FoodN.exe
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\bin\Debug\FoodN.pdb
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.csprojAssemblyReference.cache
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.DetailInfo.resources
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.DetailNews.resources
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.Login.resources
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.ManageInfo.resources
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.Properties.Resources.resources
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.csproj.GenerateResource.cache
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.exe
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.pdb
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.Request.resources
+F:\Chuyên Ngành 5\PRN201\Project\FoodN\obj\Debug\FoodN.UserForm.resources

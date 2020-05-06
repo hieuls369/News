@@ -1,0 +1,33 @@
+﻿.profile{
+    padding: 20px;
+}
+.info-profile{
+    display: flex;
+}
+.info-name{
+    width: 20%;
+}
+.info-input{
+    width: 30%;
+}
+.info-input p{
+    height: 20px;
+    line-height: 20px;
+}
+.info-input span{
+    font-size: 15px;
+    padding-left: 42%;
+    color: gray;
+}
+.img-profile{
+    width: 50%;
+}
+.tbp{
+    margin: 5px;
+}
+.repeat-news{
+    padding: 20px;
+}
+.tbRe{
+    margin-left: 165px;
+}
